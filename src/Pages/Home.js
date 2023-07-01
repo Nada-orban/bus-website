@@ -12,7 +12,7 @@ function Home() {
     <div className='home ' >
       <div className='carsoul position-relative '>
         <div className="landing" ></div>
-        <Landing />
+        {/* <Landing /> */}
       </div>
       <Features />
       <hr />

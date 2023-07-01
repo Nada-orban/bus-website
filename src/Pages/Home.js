@@ -1,6 +1,6 @@
 import React from 'react'
 import "./pages.css";
-// import Landing from '../Components/Landing';
+import Landing from '../Components/Landing';
 import Features from '../Components/Features';
 import Aboutus from '../Components/Aboutus';
 import Container from 'react-bootstrap/Container';
@@ -12,7 +12,7 @@ function Home() {
     <div className='home ' >
       <div className='carsoul position-relative '>
         <div className="landing" ></div>
-        {/* <Landing /> */}
+        <Landing />
       </div>
       <Features />
       <hr />
